@@ -28,13 +28,11 @@ h3 {
     background-color: #0C4A6E;
     margin: auto;
     margin-top: 100px;
-    padding-bottom: 50px;
     display: flex;
     justify-content: space-around;
     max-width: 500px;
     border: 3px solid white;
     border-radius: 10px;
-    height: 250px;
 }
 
 .score-section {
@@ -44,4 +42,8 @@ h3 {
     height: 150px;
     justify-content: center;
     align-items: center;
+}
+
+.button-section {
+    display: flex;
 }
