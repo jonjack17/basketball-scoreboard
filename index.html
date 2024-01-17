@@ -7,39 +7,45 @@
 
 
 <body>
-   <div id = "container">
-        <div class="team-section">
-            <h2 class = "team"> HOME </h2>
+       
+    <div id = "container">
+        <div id="menu"> <button id="new-game" onclick = reset()> NEW GAME </button></div>
+        <div id="main-content">
+            <div class="team-section">
+                <h2 class = "team" id = "home-name"> HOME </h2>
 
-            <div class = "score-section">
-                <h3 id = "home-score">
-                    0
-                </h3>
+                <div class = "score-section">
+                    <h3 id = "home-score">
+                        0
+                    </h3>
+                </div>
+                <div class = "button-section">
+                    <button class ="score-button" class="add-1" onclick = add1Home()> +1 </button>
+                    <button class ="score-button" class="add-2" onclick = add2Home()> +2 </button>
+                    <button class ="score-button" class="add-3" onclick = add3Home()> +3 </button>
+                </div> 
+            
+
             </div>
-            <div class = "button-section">
-                <button id="add-1"> +1 </button>
-                <button id="add-2"> +2 </button>
-                <button id="add-3"> +3 </button>
-            </div> 
-        </div>
-        
+            
 
-        <div class="team-section">
-            <h2 class = "team"> GUEST </h2>
-            <div class = "score-section">
-                <h3 id = "away-score">
-                    0
-                </h3>
+            
+            <div class="team-section">
+                <h2 class = "team" id = "away-name"> GUEST </h2>
+                <div class = "score-section">
+                    <h3 id = "away-score">
+                        0
+                    </h3>
+                </div>
+                <div class = "button-section">
+                    <button class ="score-button" class="add-1" onclick = add1Away()> +1 </button>
+                    <button class ="score-button" class="add-2" onclick = add2Away()> +2 </button>
+                    <button class ="score-button" class="add-3" onclick = add3Away()> +3 </button>
+                </div>
+                
             </div>
-            <div class = "button-section"></div>
         </div>
-
-
-
-
-
-
-   </div>
+     </div>
 
 
 
